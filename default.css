@@ -1,0 +1,19 @@
+
+
+body {
+    background: #F2F3F4;
+    font-family: 'Lucida Grande', 'Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
+    text-align: center;
+}
+
+.front, .back { position: absolute; width: 100vw; }
+.back { min-height: 100vh; z-index: 1; }
+.front { z-index: 2; } 
+
+.back { 
+    background-image: url("skel.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    opacity: 0.2;
+}
