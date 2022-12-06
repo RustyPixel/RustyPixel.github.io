@@ -11,7 +11,7 @@ body {
 .front { z-index: 2; } 
 
 .back { 
-    background-image: url("skel.png");
+    background-image: url("./images/skel.png");
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
